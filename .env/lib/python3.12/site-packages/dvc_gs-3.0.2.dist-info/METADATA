@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: dvc-gs
+Version: 3.0.2
+Summary: gs plugin for dvc
+Author-email: Iterative <support@dvc.org>
+Maintainer-email: Iterative <support@dvc.org>
+License: Apache License 2.0
+Project-URL: Documentation, https://dvc.org/doc
+Project-URL: Source, https://github.com/iterative/dvc-gs
+Keywords: dvc,gs
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: dvc
+Requires-Dist: gcsfs>=2022.11.0
+Provides-Extra: dev
+Requires-Dist: dvc-gs[tests]; extra == "dev"
+Requires-Dist: mypy==1.16.0; extra == "dev"
+Provides-Extra: tests
+Requires-Dist: dvc[testing]; extra == "tests"
+Requires-Dist: pytest<9,>=7; extra == "tests"
+Requires-Dist: pytest-cov>=4.1.0; extra == "tests"
+Requires-Dist: pytest-xdist>=3.2; extra == "tests"
+Requires-Dist: pytest-servers[gcs]>=0.4.0; extra == "tests"
+Requires-Dist: google-cloud-storage>=2.7.0; extra == "tests"
+Dynamic: license-file
+
+dvc-gs
+
+gs plugin for dvc
