@@ -1,4 +1,7 @@
 [core]
-    remote = myremote
+    remote = bucketremote
 ['remote "myremote"']
     url = gs://mlops-week1-seventh-seeker-473207-h9
+['remote "bucketremote"']
+    url = gs://mlops-week1-seventh-seeker-473207-h9/
+    projectname = seventh-seeker-473207-h9
