@@ -1,0 +1,5 @@
+outs:
+- md5: fc11b13b6a9e93891576500639592c14
+  size: 2433
+  hash: md5
+  path: augmented_train_v2_model.joblib
